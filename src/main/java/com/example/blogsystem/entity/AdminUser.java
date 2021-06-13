@@ -11,6 +11,8 @@ public class AdminUser {
 
     private Byte locked;
 
+
+
     public Integer getAdminUserId() {
         return adminUserId;
     }
