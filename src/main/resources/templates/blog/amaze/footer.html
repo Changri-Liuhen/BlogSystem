@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<footer class="footer blog-footer" th:fragment="footer-fragment">
+    <div class="blog-text-center">
+        &copy;
+        <a th:text="${configurations.get('footerAbout')}">BlogSystem</a>
+        Powered by 2021 Duhy
+    </div>
+</footer>
+</html>
